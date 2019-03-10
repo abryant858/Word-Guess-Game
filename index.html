@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Hangman</title>
+    <!--BootStrap File-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!--CSS File-->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Bungee" rel="stylesheet">
+  
+  </head>
+  <body>
+    <div class="row">
+      <div class="col-md-2"></div>
+      <div class="col-md-8">
+        <h1>HANGMAN</h1>
+      </div>
+      <div class="col-md-2"></div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <img src="assets/images/earth.jpg" alt="answer" id="answer">
+        </div>
+        <div class="col-md-6">
+          <div class="row">
+            <div class="col-md-12">
+              <h4>Press any key to get started!</h4>
+              <h5>Guess name of a country.</h5>
+              <input id="reset" type="button" value="Reset" onclick="reset();">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <h3>Wins</h3>
+              <div id="wins-text"></div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <h3>Losses</h3>
+              <div id="losses-text"></div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <h3>Current Word</h3>
+              <div id="current-word"></div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <h3>Number of Guesses Remaining</h3>
+              <div id="remaining-guesses"></div>
+            </div>
+          </div>  
+          <div class="row">
+            <div class="col-md-12">
+              <h3>Letters Already Guessed</h3>
+              <div id="wrong-guess"></div>
+            </div>
+          </div>
+        </div>  
+      </div>
+    </div>
+
+    <script src="assets/javascript/game.js"></script>
+    
+  </body>
+</html>

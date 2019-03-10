@@ -1,0 +1,38 @@
+body{
+    background: black;
+}
+h1{
+    font-family: 'Bungee', cursive;
+    color: #ffffff;
+    font-size: 100px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.container{
+    padding-top: 15px;
+    width: 75%;
+    height: 500px;
+    border: 4px dashed #ffffff;
+}
+h3{
+    text-align: center;
+    color: #ffffff;
+}
+h4{
+    text-align: center;
+    color: #ffffff;
+}
+h5{
+    text-align: center;
+    color: #ffffff;
+}
+#wins-text, #losses-text, #current-word, #remaining-guesses, #wrong-guess{
+    text-align: center;
+    color: #ffffff;
+    font-size: 20px;
+    
+}
+img{
+    width:300px;
+}
